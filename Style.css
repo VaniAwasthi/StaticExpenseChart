@@ -1,0 +1,101 @@
+body {
+  background-color: #f5d5cd;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  border-radius: 10px;
+  background-color: #e97451;
+  width: 50%;
+  color: white;
+  display: flex;
+  height: 100px;
+  align-items: center;
+  padding: 10px;
+}
+.barcontainer {
+  background-color: white;
+  border-radius: 10px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.greyText {
+  color: gray;
+}
+.headerText p {
+  padding: 0;
+  margin: 10px;
+}
+.exp {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+}
+.lastMonth {
+  margin-left: auto;
+  text-align: left;
+}
+.circle {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  padding: 0 20px;
+}
+.innerCircle {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  z-index: 3;
+}
+
+.outerCircle {
+  border-radius: 50%;
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  margin-left: 15px;
+}
+.lastSec {
+  display: flex;
+  padding: 0 20px;
+}
+
+.barcontainerheader {
+  text-align: left;
+  padding-left: 20px;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.bar {
+  position: relative;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #e97451;
+  width: 10%;
+  text-align: center;
+  margin: 5px;
+}
+.barlabel {
+  position: absolute;
+  bottom: 1px;
+  width: 100%;
+  text-shadow: 1px 1px 0px black;
+  color: white;
+}
+@media only screen and (max-width: 700px) {
+  .header{
+    width: 90%;
+  }
+  .barcontainer{
+    width: 90%;
+  }
+  }
